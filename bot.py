@@ -1,7 +1,7 @@
 
 from aiogram import Bot, Dispatcher, types, executor
 from config import TOKEN
-from utils.pdf_generator import generate_pdf
+from pdf_generator import generate_pdf
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
